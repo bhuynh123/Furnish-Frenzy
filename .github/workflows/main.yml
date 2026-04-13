@@ -18,6 +18,11 @@ jobs:
   testRunner:
     name: Run Unity Tests
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: read
+      checks: write
+      pull-requests: write
     steps:
       # 1. Checkout the repository
       - name: Checkout Repository
