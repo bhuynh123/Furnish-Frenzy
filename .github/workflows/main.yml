@@ -1,0 +1,52 @@
+name: Test Unity Project
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  # GameCI requires these secrets to be set in your GitHub repository settings
+  UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+  UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+  UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+
+jobs:
+  testRunner:
+    name: Run Unity Tests
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      # 2. Cache the Unity Library folder to drastically speed up CI runs
+      - name: Cache Library
+        uses: actions/cache@v3
+        with:
+          path: Library
+          key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-
+
+      # 3. Run the Unity Test Runner (This fails if there are compiler errors)
+      - name: Run Tests
+        uses: game-ci/unity-test-runner@v4
+        with:
+          projectPath: . # Change this if your Unity project is in a subfolder (e.g., ./MyGame)
+          testMode: all  # Runs both EditMode and PlayMode tests
+          checkName: Unity Test Results
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      # 4. Upload test results as an artifact so you can inspect them if they fail
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Test results
+          path: artifacts
