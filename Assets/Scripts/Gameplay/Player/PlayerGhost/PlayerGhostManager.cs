@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using Unity.Collections;
 using UnityEngine;
 
@@ -107,4 +107,4 @@ namespace Unity.MP_FPS
             return 0;
         }
     }
-}
+}*/

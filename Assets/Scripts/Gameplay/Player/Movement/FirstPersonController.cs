@@ -1,4 +1,4 @@
-//#define DEBUG_RENDER_MOVEMENT
+/*//#define DEBUG_RENDER_MOVEMENT
 
 using System;
 using System.Runtime.CompilerServices;
@@ -1177,4 +1177,4 @@ public class FirstPersonController : MonoBehaviour
     {
         Debug.Log($"[{UnityEngine.Time.frameCount}] {message}");
     }
-}
+}*/

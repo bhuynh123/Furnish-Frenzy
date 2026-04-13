@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using Unity.GhostBridge;
 using Unity.NetCode;
 using UnityEngine;
@@ -52,3 +52,4 @@ public class ManagerGhostsSpawner : Singleton<ManagerGhostsSpawner>
         }
     }
 }
+*/

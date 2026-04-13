@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using Unity.NetCode;
 using Unity.Entities;
 using Unity.Mathematics;
@@ -16,3 +16,4 @@ public class PredictedClientInputBaker : Baker<PredictedClientInputAuthoring>
         AddComponent<PredictedClientInput>(entity);
     }
 }
+*/

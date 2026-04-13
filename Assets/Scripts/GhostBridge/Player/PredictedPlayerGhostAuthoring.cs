@@ -1,4 +1,4 @@
-using Unity.Entities;
+/*using Unity.Entities;
 using UnityEngine;
 
 [DisallowMultipleComponent]
@@ -18,3 +18,4 @@ public class PredictedPlayerGhostBaker : Baker<PredictedPlayerGhostAuthoring>
         AddComponent<PlayerInputComponent>(entity);
     }
 }
+*/

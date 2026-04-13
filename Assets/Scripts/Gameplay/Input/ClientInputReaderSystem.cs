@@ -1,4 +1,4 @@
-using Unity.Entities;
+/*using Unity.Entities;
 using Unity.MP_FPS;
 using Unity.Mathematics;
 using Unity.NetCode;
@@ -104,4 +104,4 @@ public partial class ClientInputReaderSystem : SystemBase
         playerInput.SetFlag(PlayerInput.InputFlag.Shoot, controls.FPS.ShootSingle.IsPressed());
         playerInput.SetFlag(PlayerInput.InputFlag.Reload, controls.FPS.Reload.triggered);
     }
-}
+}*/

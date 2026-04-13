@@ -1,4 +1,4 @@
-#if UNITY_EDITOR
+/*#if UNITY_EDITOR
 using Unity.Scenes.Editor;
 #endif
 using Unity.Entities;
@@ -215,3 +215,4 @@ public class GhostBridgeBootstrap : ClientServerBootstrap
         return ServerWorld;
     }
 }
+*/

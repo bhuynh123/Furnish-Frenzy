@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 using Unity.Entities;
 using Unity.NetCode;
@@ -179,3 +179,4 @@ public abstract class GhostSingleton<T> : GhostSingleton
         }
     }
 }
+*/

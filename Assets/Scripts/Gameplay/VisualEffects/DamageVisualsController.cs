@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using UnityEngine.Rendering;
 
 namespace Unity.MP_FPS
@@ -132,4 +132,4 @@ namespace Unity.MP_FPS
             RenderPipelineManager.beginCameraRendering -= InjectRenderPass;
         }
     }
-}
+}*/

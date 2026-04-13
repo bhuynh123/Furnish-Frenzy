@@ -1,4 +1,4 @@
-using Unity.Entities;
+/*using Unity.Entities;
 using UnityEngine;
 using Hash128 = Unity.Entities.Hash128;
 
@@ -19,3 +19,4 @@ public class GhostGuidSpawnerCustomiser : MonoBehaviour,
     }
 #endif
 }
+*/

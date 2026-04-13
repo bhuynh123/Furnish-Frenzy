@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using Unity.Entities;
 using Unity.NetCode;
 using UnityEngine;
@@ -131,3 +131,4 @@ public abstract class GhostMonoBehaviour : MonoBehaviour
         Debug.Assert(component != null, $"{name} does not contain required component in children <{typeof(T).Name}>");
     }
 }
+*/

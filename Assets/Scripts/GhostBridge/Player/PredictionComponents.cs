@@ -1,4 +1,4 @@
-using Unity.Entities;
+/*using Unity.Entities;
 using Unity.Mathematics;
 using Unity.NetCode;
 
@@ -66,3 +66,4 @@ public struct PredictedPlayerGhost : IComponentData
     [GhostField] public uint LastGrenadeShotTick;
     [GhostField] public float ReloadTimer;
 }
+*/

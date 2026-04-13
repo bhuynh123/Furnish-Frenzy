@@ -1,4 +1,4 @@
-using Unity.Collections;
+/*using Unity.Collections;
 using Unity.Entities;
 using Unity.NetCode;
 using UnityEditor;
@@ -73,3 +73,4 @@ public class GhostGameObjectBaker : Baker<GhostGameObject>
 #endif //UNITY_EDITOR
     }
 }
+*/

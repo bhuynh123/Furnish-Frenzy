@@ -1,4 +1,4 @@
-using Unity.Entities;
+/*using Unity.Entities;
 
 namespace Unity.MP_FPS
 {
@@ -21,4 +21,4 @@ namespace Unity.MP_FPS
             }
         }
     }
-}
+}*/

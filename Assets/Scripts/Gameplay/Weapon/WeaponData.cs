@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 
 namespace Unity.MP_FPS
 {
@@ -52,4 +52,4 @@ namespace Unity.MP_FPS
         DirectDamage,
         AreaOfEffect
     }
-}
+}*/

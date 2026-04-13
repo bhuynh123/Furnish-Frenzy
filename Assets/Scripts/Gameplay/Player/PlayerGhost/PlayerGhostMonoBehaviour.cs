@@ -1,4 +1,4 @@
-
+/*
 namespace Unity.MP_FPS
 {
     public abstract class PlayerGhostMonoBehaviour : GhostMonoBehaviour
@@ -15,4 +15,4 @@ namespace Unity.MP_FPS
             GetRequiredComponent(out m_PlayerGhost);
         }
     }
-}
+}*/

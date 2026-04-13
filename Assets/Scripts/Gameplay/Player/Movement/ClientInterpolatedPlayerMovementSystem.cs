@@ -1,4 +1,4 @@
-using Unity.Collections;
+/*using Unity.Collections;
 using Unity.Entities;
 using Unity.NetCode;
 using Unity.Transforms;
@@ -64,4 +64,4 @@ namespace Unity.MP_FPS
             base.OnDestroy();
         }
     }
-}
+}*/

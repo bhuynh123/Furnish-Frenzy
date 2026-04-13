@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 using Unity.Entities;
 using Unity.NetCode;
@@ -142,3 +142,4 @@ public partial class GhostEntityPrefabSystem : ClientServerSingletonSystem<Ghost
         m_LoadedPrefabs++;
     }
 }
+*/

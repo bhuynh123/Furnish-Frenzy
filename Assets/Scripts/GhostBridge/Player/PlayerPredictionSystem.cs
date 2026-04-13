@@ -1,4 +1,4 @@
-// #define PREDICTION_DEBUG_LOGGING
+/*// #define PREDICTION_DEBUG_LOGGING
 
 using Unity.Collections;
 using Unity.Entities;
@@ -428,4 +428,4 @@ public partial class PlayerPredictionSystem : SingletonSystem<PlayerPredictionSy
         //Instance.EnablePrediction();
     }
 #endif
-}
+}*/

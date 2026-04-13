@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using Unity.Entities;
 using Unity.NetCode;
 
@@ -54,4 +54,4 @@ namespace Unity.MP_FPS
             }            
         }
     }
-}
+}*/

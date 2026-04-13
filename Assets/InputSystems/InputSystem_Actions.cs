@@ -113,16 +113,7 @@ namespace Unity.MP_FPS
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""LookDelta"",
-                    ""type"": ""Value"",
-                    ""id"": ""f9dc9932-0faf-48c1-b191-b9bc47d92816"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
-                    ""name"": ""Attack"",
+                    ""name"": ""ToggleFlashlight"",
                     ""type"": ""Button"",
                     ""id"": ""6c2ab1b8-8984-453a-af3d-a3c78ae1679a"",
                     ""expectedControlType"": """",
@@ -134,16 +125,16 @@ namespace Unity.MP_FPS
                     ""name"": ""Interact"",
                     ""type"": ""Button"",
                     ""id"": ""852140f2-7766-474d-8707-702459ba45f3"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
-                    ""interactions"": ""Hold"",
+                    ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
                     ""name"": ""Crouch"",
                     ""type"": ""Button"",
                     ""id"": ""27c5f898-bc57-4ee1-8800-db469aca5fe3"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -158,27 +149,99 @@ namespace Unity.MP_FPS
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Previous"",
-                    ""type"": ""Button"",
-                    ""id"": ""2776c80d-3c14-4091-8c56-d04ced07a2b0"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Next"",
-                    ""type"": ""Button"",
-                    ""id"": ""b7230bb6-fc9b-4f52-8b25-f5e19cb2c2ba"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
                     ""name"": ""Sprint"",
                     ""type"": ""Button"",
                     ""id"": ""641cd816-40e6-41b4-8c3d-04687c349290"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""NextItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""738d17db-0de3-4e04-8ff5-4eaec432a559"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""PreviousItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""a43244a9-c067-41a8-88a3-9c9b3a2fd46d"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""DropItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""6062482c-d074-4e89-8b4f-d38277115add"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ToggleMaxFlash"",
+                    ""type"": ""Button"",
+                    ""id"": ""9d08cb65-8b83-4f91-b5e5-0db2c49362d5"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""UseItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""91052694-b191-47ba-aa66-4fd3b8b6fa5c"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SelectFirstItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""731392c1-2979-44ec-96bd-04ea7ac75d54"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SelectSecondItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""7fe0aade-fdbf-41f2-b8f9-28e3e88d6eca"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SelectThirdItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""24fb29bf-d6de-40f8-afa8-ca7f1bb401de"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SelectFourthItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""af98bdf0-a8ba-402c-aac3-394ec72635d8"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SelectFifthItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""c9b70834-078b-4af5-92d4-a164e2ace022"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -353,45 +416,23 @@ namespace Unity.MP_FPS
                 },
                 {
                     ""name"": """",
-                    ""id"": ""4bba36c8-98f7-4f13-a063-4a7204483592"",
-                    ""path"": ""<Mouse>/delta"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Look"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""1f690f59-b285-4282-8758-a4cfc6a7e099"",
-                    ""path"": ""<Mouse>/delta"",
-                    ""interactions"": """",
-                    ""processors"": ""ScaleVector2(x=0.05,y=0.05)"",
-                    ""groups"": "";Default"",
-                    ""action"": ""LookDelta"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""143bb1cd-cc10-4eca-a2f0-a3664166fe91"",
                     ""path"": ""<Gamepad>/buttonWest"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Gamepad"",
-                    ""action"": ""Attack"",
+                    ""action"": ""ToggleFlashlight"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""05f6913d-c316-48b2-a6bb-e225f14c7960"",
-                    ""path"": ""<Mouse>/leftButton"",
+                    ""path"": ""<Keyboard>/f"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Attack"",
+                    ""action"": ""ToggleFlashlight"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -402,7 +443,7 @@ namespace Unity.MP_FPS
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Touch"",
-                    ""action"": ""Attack"",
+                    ""action"": ""ToggleFlashlight"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -413,7 +454,7 @@ namespace Unity.MP_FPS
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Joystick"",
-                    ""action"": ""Attack"",
+                    ""action"": ""ToggleFlashlight"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -424,7 +465,7 @@ namespace Unity.MP_FPS
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""XR"",
-                    ""action"": ""Attack"",
+                    ""action"": ""ToggleFlashlight"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -435,29 +476,7 @@ namespace Unity.MP_FPS
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Attack"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""cbac6039-9c09-46a1-b5f2-4e5124ccb5ed"",
-                    ""path"": ""<Keyboard>/2"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Next"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e15ca19d-e649-4852-97d5-7fe8ccc44e94"",
-                    ""path"": ""<Gamepad>/dpad/right"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Next"",
+                    ""action"": ""ToggleFlashlight"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -529,28 +548,6 @@ namespace Unity.MP_FPS
                 },
                 {
                     ""name"": """",
-                    ""id"": ""1534dc16-a6aa-499d-9c3a-22b47347b52a"",
-                    ""path"": ""<Keyboard>/1"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Previous"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""25060bbd-a3a6-476e-8fba-45ae484aad05"",
-                    ""path"": ""<Gamepad>/dpad/left"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Previous"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""1c04ea5f-b012-41d1-a6f7-02e963b52893"",
                     ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
@@ -585,11 +582,121 @@ namespace Unity.MP_FPS
                 {
                     ""name"": """",
                     ""id"": ""36e52cba-0905-478e-a818-f4bfcb9f3b9a"",
-                    ""path"": ""<Keyboard>/c"",
+                    ""path"": ""<Keyboard>/ctrl"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Crouch"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0a21b7ff-d6af-4874-b0ad-def1a0b170aa"",
+                    ""path"": ""<Mouse>/scroll/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""NextItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""11312b58-afad-48c1-a4cc-59d730fe804a"",
+                    ""path"": ""<Mouse>/scroll/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""PreviousItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c87194a4-a7d6-45c8-b6b3-b02ae38ab563"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""DropItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""073f9188-e4f2-425a-a827-2a51736e7875"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""ToggleMaxFlash"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""96ee4d51-ad40-4f9b-ae46-15e4579bd733"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""UseItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1e003d0d-0807-4abd-9fb5-8bee71d3baf1"",
+                    ""path"": ""<Keyboard>/1"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""SelectFirstItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a57a46fd-843a-42be-a43b-f29a5e22e8a5"",
+                    ""path"": ""<Keyboard>/2"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""SelectSecondItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""afe86a1b-53fa-4138-9738-af351852b6b8"",
+                    ""path"": ""<Keyboard>/3"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""SelectThirdItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9686fbbd-be5e-4bbc-bedb-96471a8caa2a"",
+                    ""path"": ""<Keyboard>/4"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""SelectFourthItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""33eeff3f-393f-4e22-a3b1-d56c3b4ef304"",
+                    ""path"": ""<Keyboard>/5"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""SelectFifthItem"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -685,24 +792,6 @@ namespace Unity.MP_FPS
                     ""type"": ""PassThrough"",
                     ""id"": ""9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be"",
                     ""expectedControlType"": ""Quaternion"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""TogglePauseMenu"",
-                    ""type"": ""Button"",
-                    ""id"": ""8b486689-a6f8-47ec-be9b-3d6ee4873fdc"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""ShowLeaderboard"",
-                    ""type"": ""Button"",
-                    ""id"": ""7ccacee0-6014-4e70-b30a-c99f482d96d8"",
-                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -1126,266 +1215,6 @@ namespace Unity.MP_FPS
                     ""action"": ""TrackedDeviceOrientation"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""1b12826a-0dbf-4977-89fa-a9b1e5dd64d5"",
-                    ""path"": ""<Keyboard>/escape"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""TogglePauseMenu"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""903d3bdb-a02c-456f-979d-d9b8d9be86a4"",
-                    ""path"": ""<Keyboard>/tab"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""ShowLeaderboard"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""9748093a-3f1c-4127-8eb8-6c7f2936bfd1"",
-                    ""path"": ""<Gamepad>/select"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""ShowLeaderboard"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""FPS"",
-            ""id"": ""e5523049-3b48-4155-a261-b5f40fc786fe"",
-            ""actions"": [
-                {
-                    ""name"": ""ShootSingle"",
-                    ""type"": ""Button"",
-                    ""id"": ""8c0f36de-f130-4f16-b5e6-8242e9385970"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""ShoortFullAuto"",
-                    ""type"": ""Button"",
-                    ""id"": ""48ddbafd-d1af-438d-8ae6-179546ada663"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""ShootGrenade"",
-                    ""type"": ""Button"",
-                    ""id"": ""05ce2eb0-4760-450f-86cf-3668a6e75e59"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Reload"",
-                    ""type"": ""Button"",
-                    ""id"": ""47c2ad3d-e98c-4dc9-a043-388661fc974e"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Jump"",
-                    ""type"": ""Button"",
-                    ""id"": ""c21156d0-15c6-4334-a002-369e173b6f3a"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Move"",
-                    ""type"": ""Value"",
-                    ""id"": ""d6855c1c-5e60-4f40-bc49-26ea14f793b9"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""bce2d620-b065-42f8-9bc3-fa8d594f76fe"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""ShootSingle"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""fed218b7-dcaf-46ae-9c47-413e51f9bf47"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""ShoortFullAuto"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""d790be5f-a012-4ec1-95de-b636f3fa1b3a"",
-                    ""path"": ""<Keyboard>/r"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Reload"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""ac9ddd24-ebb4-459e-813f-58c371e3064e"",
-                    ""path"": ""<Keyboard>/l"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Reload"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""0526827c-cc48-4872-bf76-4ad5287b05a0"",
-                    ""path"": ""<Keyboard>/space"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Jump"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e4e897d4-d193-4095-9c52-189bbe8f9157"",
-                    ""path"": ""<Gamepad>/leftStick"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""UpDownLeftRight"",
-                    ""id"": ""b925ab35-138e-4974-9a8b-08c4b291643a"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""345810e4-e9e3-4391-9220-c37c0f1822f4"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""849e77ad-a422-4d68-bb3b-954cfc8c950c"",
-                    ""path"": ""<Keyboard>/upArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""965163b5-b7bb-49a5-a4d0-80220c6897df"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""e6ea04c1-561a-4707-9355-bf51aae1f1bd"",
-                    ""path"": ""<Keyboard>/downArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""fc81c9f2-c945-469c-9b1c-e3dee6b2cb3e"",
-                    ""path"": ""<Keyboard>/a"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""0cf8af35-b2de-4c09-ab61-d5b14f719189"",
-                    ""path"": ""<Keyboard>/leftArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""c1ed7b98-18e1-4477-a647-bb1f47eb7bec"",
-                    ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""342a6e64-dc6f-4613-beb3-e795f3bc42c6"",
-                    ""path"": ""<Keyboard>/rightArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -1457,14 +1286,21 @@ namespace Unity.MP_FPS
             m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
             m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
             m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
-            m_Player_LookDelta = m_Player.FindAction("LookDelta", throwIfNotFound: true);
-            m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
+            m_Player_ToggleFlashlight = m_Player.FindAction("ToggleFlashlight", throwIfNotFound: true);
             m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
             m_Player_Crouch = m_Player.FindAction("Crouch", throwIfNotFound: true);
             m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
-            m_Player_Previous = m_Player.FindAction("Previous", throwIfNotFound: true);
-            m_Player_Next = m_Player.FindAction("Next", throwIfNotFound: true);
             m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
+            m_Player_NextItem = m_Player.FindAction("NextItem", throwIfNotFound: true);
+            m_Player_PreviousItem = m_Player.FindAction("PreviousItem", throwIfNotFound: true);
+            m_Player_DropItem = m_Player.FindAction("DropItem", throwIfNotFound: true);
+            m_Player_ToggleMaxFlash = m_Player.FindAction("ToggleMaxFlash", throwIfNotFound: true);
+            m_Player_UseItem = m_Player.FindAction("UseItem", throwIfNotFound: true);
+            m_Player_SelectFirstItem = m_Player.FindAction("SelectFirstItem", throwIfNotFound: true);
+            m_Player_SelectSecondItem = m_Player.FindAction("SelectSecondItem", throwIfNotFound: true);
+            m_Player_SelectThirdItem = m_Player.FindAction("SelectThirdItem", throwIfNotFound: true);
+            m_Player_SelectFourthItem = m_Player.FindAction("SelectFourthItem", throwIfNotFound: true);
+            m_Player_SelectFifthItem = m_Player.FindAction("SelectFifthItem", throwIfNotFound: true);
             // UI
             m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
             m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1477,23 +1313,12 @@ namespace Unity.MP_FPS
             m_UI_ScrollWheel = m_UI.FindAction("ScrollWheel", throwIfNotFound: true);
             m_UI_TrackedDevicePosition = m_UI.FindAction("TrackedDevicePosition", throwIfNotFound: true);
             m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
-            m_UI_TogglePauseMenu = m_UI.FindAction("TogglePauseMenu", throwIfNotFound: true);
-            m_UI_ShowLeaderboard = m_UI.FindAction("ShowLeaderboard", throwIfNotFound: true);
-            // FPS
-            m_FPS = asset.FindActionMap("FPS", throwIfNotFound: true);
-            m_FPS_ShootSingle = m_FPS.FindAction("ShootSingle", throwIfNotFound: true);
-            m_FPS_ShoortFullAuto = m_FPS.FindAction("ShoortFullAuto", throwIfNotFound: true);
-            m_FPS_ShootGrenade = m_FPS.FindAction("ShootGrenade", throwIfNotFound: true);
-            m_FPS_Reload = m_FPS.FindAction("Reload", throwIfNotFound: true);
-            m_FPS_Jump = m_FPS.FindAction("Jump", throwIfNotFound: true);
-            m_FPS_Move = m_FPS.FindAction("Move", throwIfNotFound: true);
         }
 
         ~@InputSystem_Actions()
         {
             UnityEngine.Debug.Assert(!m_Player.enabled, "This will cause a leak and performance issues, InputSystem_Actions.Player.Disable() has not been called.");
             UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, InputSystem_Actions.UI.Disable() has not been called.");
-            UnityEngine.Debug.Assert(!m_FPS.enabled, "This will cause a leak and performance issues, InputSystem_Actions.FPS.Disable() has not been called.");
         }
 
         /// <summary>
@@ -1571,14 +1396,21 @@ namespace Unity.MP_FPS
         private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
         private readonly InputAction m_Player_Move;
         private readonly InputAction m_Player_Look;
-        private readonly InputAction m_Player_LookDelta;
-        private readonly InputAction m_Player_Attack;
+        private readonly InputAction m_Player_ToggleFlashlight;
         private readonly InputAction m_Player_Interact;
         private readonly InputAction m_Player_Crouch;
         private readonly InputAction m_Player_Jump;
-        private readonly InputAction m_Player_Previous;
-        private readonly InputAction m_Player_Next;
         private readonly InputAction m_Player_Sprint;
+        private readonly InputAction m_Player_NextItem;
+        private readonly InputAction m_Player_PreviousItem;
+        private readonly InputAction m_Player_DropItem;
+        private readonly InputAction m_Player_ToggleMaxFlash;
+        private readonly InputAction m_Player_UseItem;
+        private readonly InputAction m_Player_SelectFirstItem;
+        private readonly InputAction m_Player_SelectSecondItem;
+        private readonly InputAction m_Player_SelectThirdItem;
+        private readonly InputAction m_Player_SelectFourthItem;
+        private readonly InputAction m_Player_SelectFifthItem;
         /// <summary>
         /// Provides access to input actions defined in input action map "Player".
         /// </summary>
@@ -1599,13 +1431,9 @@ namespace Unity.MP_FPS
             /// </summary>
             public InputAction @Look => m_Wrapper.m_Player_Look;
             /// <summary>
-            /// Provides access to the underlying input action "Player/LookDelta".
+            /// Provides access to the underlying input action "Player/ToggleFlashlight".
             /// </summary>
-            public InputAction @LookDelta => m_Wrapper.m_Player_LookDelta;
-            /// <summary>
-            /// Provides access to the underlying input action "Player/Attack".
-            /// </summary>
-            public InputAction @Attack => m_Wrapper.m_Player_Attack;
+            public InputAction @ToggleFlashlight => m_Wrapper.m_Player_ToggleFlashlight;
             /// <summary>
             /// Provides access to the underlying input action "Player/Interact".
             /// </summary>
@@ -1619,17 +1447,49 @@ namespace Unity.MP_FPS
             /// </summary>
             public InputAction @Jump => m_Wrapper.m_Player_Jump;
             /// <summary>
-            /// Provides access to the underlying input action "Player/Previous".
-            /// </summary>
-            public InputAction @Previous => m_Wrapper.m_Player_Previous;
-            /// <summary>
-            /// Provides access to the underlying input action "Player/Next".
-            /// </summary>
-            public InputAction @Next => m_Wrapper.m_Player_Next;
-            /// <summary>
             /// Provides access to the underlying input action "Player/Sprint".
             /// </summary>
             public InputAction @Sprint => m_Wrapper.m_Player_Sprint;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/NextItem".
+            /// </summary>
+            public InputAction @NextItem => m_Wrapper.m_Player_NextItem;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/PreviousItem".
+            /// </summary>
+            public InputAction @PreviousItem => m_Wrapper.m_Player_PreviousItem;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/DropItem".
+            /// </summary>
+            public InputAction @DropItem => m_Wrapper.m_Player_DropItem;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/ToggleMaxFlash".
+            /// </summary>
+            public InputAction @ToggleMaxFlash => m_Wrapper.m_Player_ToggleMaxFlash;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/UseItem".
+            /// </summary>
+            public InputAction @UseItem => m_Wrapper.m_Player_UseItem;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/SelectFirstItem".
+            /// </summary>
+            public InputAction @SelectFirstItem => m_Wrapper.m_Player_SelectFirstItem;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/SelectSecondItem".
+            /// </summary>
+            public InputAction @SelectSecondItem => m_Wrapper.m_Player_SelectSecondItem;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/SelectThirdItem".
+            /// </summary>
+            public InputAction @SelectThirdItem => m_Wrapper.m_Player_SelectThirdItem;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/SelectFourthItem".
+            /// </summary>
+            public InputAction @SelectFourthItem => m_Wrapper.m_Player_SelectFourthItem;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/SelectFifthItem".
+            /// </summary>
+            public InputAction @SelectFifthItem => m_Wrapper.m_Player_SelectFifthItem;
             /// <summary>
             /// Provides access to the underlying input action map instance.
             /// </summary>
@@ -1662,12 +1522,9 @@ namespace Unity.MP_FPS
                 @Look.started += instance.OnLook;
                 @Look.performed += instance.OnLook;
                 @Look.canceled += instance.OnLook;
-                @LookDelta.started += instance.OnLookDelta;
-                @LookDelta.performed += instance.OnLookDelta;
-                @LookDelta.canceled += instance.OnLookDelta;
-                @Attack.started += instance.OnAttack;
-                @Attack.performed += instance.OnAttack;
-                @Attack.canceled += instance.OnAttack;
+                @ToggleFlashlight.started += instance.OnToggleFlashlight;
+                @ToggleFlashlight.performed += instance.OnToggleFlashlight;
+                @ToggleFlashlight.canceled += instance.OnToggleFlashlight;
                 @Interact.started += instance.OnInteract;
                 @Interact.performed += instance.OnInteract;
                 @Interact.canceled += instance.OnInteract;
@@ -1677,15 +1534,39 @@ namespace Unity.MP_FPS
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
-                @Previous.started += instance.OnPrevious;
-                @Previous.performed += instance.OnPrevious;
-                @Previous.canceled += instance.OnPrevious;
-                @Next.started += instance.OnNext;
-                @Next.performed += instance.OnNext;
-                @Next.canceled += instance.OnNext;
                 @Sprint.started += instance.OnSprint;
                 @Sprint.performed += instance.OnSprint;
                 @Sprint.canceled += instance.OnSprint;
+                @NextItem.started += instance.OnNextItem;
+                @NextItem.performed += instance.OnNextItem;
+                @NextItem.canceled += instance.OnNextItem;
+                @PreviousItem.started += instance.OnPreviousItem;
+                @PreviousItem.performed += instance.OnPreviousItem;
+                @PreviousItem.canceled += instance.OnPreviousItem;
+                @DropItem.started += instance.OnDropItem;
+                @DropItem.performed += instance.OnDropItem;
+                @DropItem.canceled += instance.OnDropItem;
+                @ToggleMaxFlash.started += instance.OnToggleMaxFlash;
+                @ToggleMaxFlash.performed += instance.OnToggleMaxFlash;
+                @ToggleMaxFlash.canceled += instance.OnToggleMaxFlash;
+                @UseItem.started += instance.OnUseItem;
+                @UseItem.performed += instance.OnUseItem;
+                @UseItem.canceled += instance.OnUseItem;
+                @SelectFirstItem.started += instance.OnSelectFirstItem;
+                @SelectFirstItem.performed += instance.OnSelectFirstItem;
+                @SelectFirstItem.canceled += instance.OnSelectFirstItem;
+                @SelectSecondItem.started += instance.OnSelectSecondItem;
+                @SelectSecondItem.performed += instance.OnSelectSecondItem;
+                @SelectSecondItem.canceled += instance.OnSelectSecondItem;
+                @SelectThirdItem.started += instance.OnSelectThirdItem;
+                @SelectThirdItem.performed += instance.OnSelectThirdItem;
+                @SelectThirdItem.canceled += instance.OnSelectThirdItem;
+                @SelectFourthItem.started += instance.OnSelectFourthItem;
+                @SelectFourthItem.performed += instance.OnSelectFourthItem;
+                @SelectFourthItem.canceled += instance.OnSelectFourthItem;
+                @SelectFifthItem.started += instance.OnSelectFifthItem;
+                @SelectFifthItem.performed += instance.OnSelectFifthItem;
+                @SelectFifthItem.canceled += instance.OnSelectFifthItem;
             }
 
             /// <summary>
@@ -1703,12 +1584,9 @@ namespace Unity.MP_FPS
                 @Look.started -= instance.OnLook;
                 @Look.performed -= instance.OnLook;
                 @Look.canceled -= instance.OnLook;
-                @LookDelta.started -= instance.OnLookDelta;
-                @LookDelta.performed -= instance.OnLookDelta;
-                @LookDelta.canceled -= instance.OnLookDelta;
-                @Attack.started -= instance.OnAttack;
-                @Attack.performed -= instance.OnAttack;
-                @Attack.canceled -= instance.OnAttack;
+                @ToggleFlashlight.started -= instance.OnToggleFlashlight;
+                @ToggleFlashlight.performed -= instance.OnToggleFlashlight;
+                @ToggleFlashlight.canceled -= instance.OnToggleFlashlight;
                 @Interact.started -= instance.OnInteract;
                 @Interact.performed -= instance.OnInteract;
                 @Interact.canceled -= instance.OnInteract;
@@ -1718,15 +1596,39 @@ namespace Unity.MP_FPS
                 @Jump.started -= instance.OnJump;
                 @Jump.performed -= instance.OnJump;
                 @Jump.canceled -= instance.OnJump;
-                @Previous.started -= instance.OnPrevious;
-                @Previous.performed -= instance.OnPrevious;
-                @Previous.canceled -= instance.OnPrevious;
-                @Next.started -= instance.OnNext;
-                @Next.performed -= instance.OnNext;
-                @Next.canceled -= instance.OnNext;
                 @Sprint.started -= instance.OnSprint;
                 @Sprint.performed -= instance.OnSprint;
                 @Sprint.canceled -= instance.OnSprint;
+                @NextItem.started -= instance.OnNextItem;
+                @NextItem.performed -= instance.OnNextItem;
+                @NextItem.canceled -= instance.OnNextItem;
+                @PreviousItem.started -= instance.OnPreviousItem;
+                @PreviousItem.performed -= instance.OnPreviousItem;
+                @PreviousItem.canceled -= instance.OnPreviousItem;
+                @DropItem.started -= instance.OnDropItem;
+                @DropItem.performed -= instance.OnDropItem;
+                @DropItem.canceled -= instance.OnDropItem;
+                @ToggleMaxFlash.started -= instance.OnToggleMaxFlash;
+                @ToggleMaxFlash.performed -= instance.OnToggleMaxFlash;
+                @ToggleMaxFlash.canceled -= instance.OnToggleMaxFlash;
+                @UseItem.started -= instance.OnUseItem;
+                @UseItem.performed -= instance.OnUseItem;
+                @UseItem.canceled -= instance.OnUseItem;
+                @SelectFirstItem.started -= instance.OnSelectFirstItem;
+                @SelectFirstItem.performed -= instance.OnSelectFirstItem;
+                @SelectFirstItem.canceled -= instance.OnSelectFirstItem;
+                @SelectSecondItem.started -= instance.OnSelectSecondItem;
+                @SelectSecondItem.performed -= instance.OnSelectSecondItem;
+                @SelectSecondItem.canceled -= instance.OnSelectSecondItem;
+                @SelectThirdItem.started -= instance.OnSelectThirdItem;
+                @SelectThirdItem.performed -= instance.OnSelectThirdItem;
+                @SelectThirdItem.canceled -= instance.OnSelectThirdItem;
+                @SelectFourthItem.started -= instance.OnSelectFourthItem;
+                @SelectFourthItem.performed -= instance.OnSelectFourthItem;
+                @SelectFourthItem.canceled -= instance.OnSelectFourthItem;
+                @SelectFifthItem.started -= instance.OnSelectFifthItem;
+                @SelectFifthItem.performed -= instance.OnSelectFifthItem;
+                @SelectFifthItem.canceled -= instance.OnSelectFifthItem;
             }
 
             /// <summary>
@@ -1774,8 +1676,6 @@ namespace Unity.MP_FPS
         private readonly InputAction m_UI_ScrollWheel;
         private readonly InputAction m_UI_TrackedDevicePosition;
         private readonly InputAction m_UI_TrackedDeviceOrientation;
-        private readonly InputAction m_UI_TogglePauseMenu;
-        private readonly InputAction m_UI_ShowLeaderboard;
         /// <summary>
         /// Provides access to input actions defined in input action map "UI".
         /// </summary>
@@ -1827,14 +1727,6 @@ namespace Unity.MP_FPS
             /// Provides access to the underlying input action "UI/TrackedDeviceOrientation".
             /// </summary>
             public InputAction @TrackedDeviceOrientation => m_Wrapper.m_UI_TrackedDeviceOrientation;
-            /// <summary>
-            /// Provides access to the underlying input action "UI/TogglePauseMenu".
-            /// </summary>
-            public InputAction @TogglePauseMenu => m_Wrapper.m_UI_TogglePauseMenu;
-            /// <summary>
-            /// Provides access to the underlying input action "UI/ShowLeaderboard".
-            /// </summary>
-            public InputAction @ShowLeaderboard => m_Wrapper.m_UI_ShowLeaderboard;
             /// <summary>
             /// Provides access to the underlying input action map instance.
             /// </summary>
@@ -1891,12 +1783,6 @@ namespace Unity.MP_FPS
                 @TrackedDeviceOrientation.started += instance.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.performed += instance.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.canceled += instance.OnTrackedDeviceOrientation;
-                @TogglePauseMenu.started += instance.OnTogglePauseMenu;
-                @TogglePauseMenu.performed += instance.OnTogglePauseMenu;
-                @TogglePauseMenu.canceled += instance.OnTogglePauseMenu;
-                @ShowLeaderboard.started += instance.OnShowLeaderboard;
-                @ShowLeaderboard.performed += instance.OnShowLeaderboard;
-                @ShowLeaderboard.canceled += instance.OnShowLeaderboard;
             }
 
             /// <summary>
@@ -1938,12 +1824,6 @@ namespace Unity.MP_FPS
                 @TrackedDeviceOrientation.started -= instance.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.performed -= instance.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.canceled -= instance.OnTrackedDeviceOrientation;
-                @TogglePauseMenu.started -= instance.OnTogglePauseMenu;
-                @TogglePauseMenu.performed -= instance.OnTogglePauseMenu;
-                @TogglePauseMenu.canceled -= instance.OnTogglePauseMenu;
-                @ShowLeaderboard.started -= instance.OnShowLeaderboard;
-                @ShowLeaderboard.performed -= instance.OnShowLeaderboard;
-                @ShowLeaderboard.canceled -= instance.OnShowLeaderboard;
             }
 
             /// <summary>
@@ -1977,157 +1857,6 @@ namespace Unity.MP_FPS
         /// Provides a new <see cref="UIActions" /> instance referencing this action map.
         /// </summary>
         public UIActions @UI => new UIActions(this);
-
-        // FPS
-        private readonly InputActionMap m_FPS;
-        private List<IFPSActions> m_FPSActionsCallbackInterfaces = new List<IFPSActions>();
-        private readonly InputAction m_FPS_ShootSingle;
-        private readonly InputAction m_FPS_ShoortFullAuto;
-        private readonly InputAction m_FPS_ShootGrenade;
-        private readonly InputAction m_FPS_Reload;
-        private readonly InputAction m_FPS_Jump;
-        private readonly InputAction m_FPS_Move;
-        /// <summary>
-        /// Provides access to input actions defined in input action map "FPS".
-        /// </summary>
-        public struct FPSActions
-        {
-            private @InputSystem_Actions m_Wrapper;
-
-            /// <summary>
-            /// Construct a new instance of the input action map wrapper class.
-            /// </summary>
-            public FPSActions(@InputSystem_Actions wrapper) { m_Wrapper = wrapper; }
-            /// <summary>
-            /// Provides access to the underlying input action "FPS/ShootSingle".
-            /// </summary>
-            public InputAction @ShootSingle => m_Wrapper.m_FPS_ShootSingle;
-            /// <summary>
-            /// Provides access to the underlying input action "FPS/ShoortFullAuto".
-            /// </summary>
-            public InputAction @ShoortFullAuto => m_Wrapper.m_FPS_ShoortFullAuto;
-            /// <summary>
-            /// Provides access to the underlying input action "FPS/ShootGrenade".
-            /// </summary>
-            public InputAction @ShootGrenade => m_Wrapper.m_FPS_ShootGrenade;
-            /// <summary>
-            /// Provides access to the underlying input action "FPS/Reload".
-            /// </summary>
-            public InputAction @Reload => m_Wrapper.m_FPS_Reload;
-            /// <summary>
-            /// Provides access to the underlying input action "FPS/Jump".
-            /// </summary>
-            public InputAction @Jump => m_Wrapper.m_FPS_Jump;
-            /// <summary>
-            /// Provides access to the underlying input action "FPS/Move".
-            /// </summary>
-            public InputAction @Move => m_Wrapper.m_FPS_Move;
-            /// <summary>
-            /// Provides access to the underlying input action map instance.
-            /// </summary>
-            public InputActionMap Get() { return m_Wrapper.m_FPS; }
-            /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-            public void Enable() { Get().Enable(); }
-            /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-            public void Disable() { Get().Disable(); }
-            /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-            public bool enabled => Get().enabled;
-            /// <summary>
-            /// Implicitly converts an <see ref="FPSActions" /> to an <see ref="InputActionMap" /> instance.
-            /// </summary>
-            public static implicit operator InputActionMap(FPSActions set) { return set.Get(); }
-            /// <summary>
-            /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-            /// </summary>
-            /// <param name="instance">Callback instance.</param>
-            /// <remarks>
-            /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-            /// </remarks>
-            /// <seealso cref="FPSActions" />
-            public void AddCallbacks(IFPSActions instance)
-            {
-                if (instance == null || m_Wrapper.m_FPSActionsCallbackInterfaces.Contains(instance)) return;
-                m_Wrapper.m_FPSActionsCallbackInterfaces.Add(instance);
-                @ShootSingle.started += instance.OnShootSingle;
-                @ShootSingle.performed += instance.OnShootSingle;
-                @ShootSingle.canceled += instance.OnShootSingle;
-                @ShoortFullAuto.started += instance.OnShoortFullAuto;
-                @ShoortFullAuto.performed += instance.OnShoortFullAuto;
-                @ShoortFullAuto.canceled += instance.OnShoortFullAuto;
-                @ShootGrenade.started += instance.OnShootGrenade;
-                @ShootGrenade.performed += instance.OnShootGrenade;
-                @ShootGrenade.canceled += instance.OnShootGrenade;
-                @Reload.started += instance.OnReload;
-                @Reload.performed += instance.OnReload;
-                @Reload.canceled += instance.OnReload;
-                @Jump.started += instance.OnJump;
-                @Jump.performed += instance.OnJump;
-                @Jump.canceled += instance.OnJump;
-                @Move.started += instance.OnMove;
-                @Move.performed += instance.OnMove;
-                @Move.canceled += instance.OnMove;
-            }
-
-            /// <summary>
-            /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-            /// </summary>
-            /// <remarks>
-            /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-            /// </remarks>
-            /// <seealso cref="FPSActions" />
-            private void UnregisterCallbacks(IFPSActions instance)
-            {
-                @ShootSingle.started -= instance.OnShootSingle;
-                @ShootSingle.performed -= instance.OnShootSingle;
-                @ShootSingle.canceled -= instance.OnShootSingle;
-                @ShoortFullAuto.started -= instance.OnShoortFullAuto;
-                @ShoortFullAuto.performed -= instance.OnShoortFullAuto;
-                @ShoortFullAuto.canceled -= instance.OnShoortFullAuto;
-                @ShootGrenade.started -= instance.OnShootGrenade;
-                @ShootGrenade.performed -= instance.OnShootGrenade;
-                @ShootGrenade.canceled -= instance.OnShootGrenade;
-                @Reload.started -= instance.OnReload;
-                @Reload.performed -= instance.OnReload;
-                @Reload.canceled -= instance.OnReload;
-                @Jump.started -= instance.OnJump;
-                @Jump.performed -= instance.OnJump;
-                @Jump.canceled -= instance.OnJump;
-                @Move.started -= instance.OnMove;
-                @Move.performed -= instance.OnMove;
-                @Move.canceled -= instance.OnMove;
-            }
-
-            /// <summary>
-            /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="FPSActions.UnregisterCallbacks(IFPSActions)" />.
-            /// </summary>
-            /// <seealso cref="FPSActions.UnregisterCallbacks(IFPSActions)" />
-            public void RemoveCallbacks(IFPSActions instance)
-            {
-                if (m_Wrapper.m_FPSActionsCallbackInterfaces.Remove(instance))
-                    UnregisterCallbacks(instance);
-            }
-
-            /// <summary>
-            /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-            /// </summary>
-            /// <remarks>
-            /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-            /// </remarks>
-            /// <seealso cref="FPSActions.AddCallbacks(IFPSActions)" />
-            /// <seealso cref="FPSActions.RemoveCallbacks(IFPSActions)" />
-            /// <seealso cref="FPSActions.UnregisterCallbacks(IFPSActions)" />
-            public void SetCallbacks(IFPSActions instance)
-            {
-                foreach (var item in m_Wrapper.m_FPSActionsCallbackInterfaces)
-                    UnregisterCallbacks(item);
-                m_Wrapper.m_FPSActionsCallbackInterfaces.Clear();
-                AddCallbacks(instance);
-            }
-        }
-        /// <summary>
-        /// Provides a new <see cref="FPSActions" /> instance referencing this action map.
-        /// </summary>
-        public FPSActions @FPS => new FPSActions(this);
         private int m_KeyboardMouseSchemeIndex = -1;
         /// <summary>
         /// Provides access to the input control scheme.
@@ -2215,19 +1944,12 @@ namespace Unity.MP_FPS
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
             void OnLook(InputAction.CallbackContext context);
             /// <summary>
-            /// Method invoked when associated input action "LookDelta" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// Method invoked when associated input action "ToggleFlashlight" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
             /// </summary>
             /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
             /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnLookDelta(InputAction.CallbackContext context);
-            /// <summary>
-            /// Method invoked when associated input action "Attack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnAttack(InputAction.CallbackContext context);
+            void OnToggleFlashlight(InputAction.CallbackContext context);
             /// <summary>
             /// Method invoked when associated input action "Interact" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
             /// </summary>
@@ -2250,26 +1972,82 @@ namespace Unity.MP_FPS
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
             void OnJump(InputAction.CallbackContext context);
             /// <summary>
-            /// Method invoked when associated input action "Previous" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnPrevious(InputAction.CallbackContext context);
-            /// <summary>
-            /// Method invoked when associated input action "Next" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnNext(InputAction.CallbackContext context);
-            /// <summary>
             /// Method invoked when associated input action "Sprint" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
             /// </summary>
             /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
             /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
             void OnSprint(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "NextItem" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnNextItem(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "PreviousItem" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnPreviousItem(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "DropItem" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnDropItem(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "ToggleMaxFlash" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnToggleMaxFlash(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "UseItem" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnUseItem(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "SelectFirstItem" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnSelectFirstItem(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "SelectSecondItem" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnSelectSecondItem(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "SelectThirdItem" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnSelectThirdItem(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "SelectFourthItem" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnSelectFourthItem(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "SelectFifthItem" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnSelectFifthItem(InputAction.CallbackContext context);
         }
         /// <summary>
         /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UI" which allows adding and removing callbacks.
@@ -2348,70 +2126,6 @@ namespace Unity.MP_FPS
             /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
             void OnTrackedDeviceOrientation(InputAction.CallbackContext context);
-            /// <summary>
-            /// Method invoked when associated input action "TogglePauseMenu" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnTogglePauseMenu(InputAction.CallbackContext context);
-            /// <summary>
-            /// Method invoked when associated input action "ShowLeaderboard" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnShowLeaderboard(InputAction.CallbackContext context);
-        }
-        /// <summary>
-        /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "FPS" which allows adding and removing callbacks.
-        /// </summary>
-        /// <seealso cref="FPSActions.AddCallbacks(IFPSActions)" />
-        /// <seealso cref="FPSActions.RemoveCallbacks(IFPSActions)" />
-        public interface IFPSActions
-        {
-            /// <summary>
-            /// Method invoked when associated input action "ShootSingle" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnShootSingle(InputAction.CallbackContext context);
-            /// <summary>
-            /// Method invoked when associated input action "ShoortFullAuto" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnShoortFullAuto(InputAction.CallbackContext context);
-            /// <summary>
-            /// Method invoked when associated input action "ShootGrenade" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnShootGrenade(InputAction.CallbackContext context);
-            /// <summary>
-            /// Method invoked when associated input action "Reload" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnReload(InputAction.CallbackContext context);
-            /// <summary>
-            /// Method invoked when associated input action "Jump" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnJump(InputAction.CallbackContext context);
-            /// <summary>
-            /// Method invoked when associated input action "Move" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnMove(InputAction.CallbackContext context);
         }
     }
 }

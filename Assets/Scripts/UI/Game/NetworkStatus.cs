@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections;
 using Unity.NetCode;
 using UnityEngine;
@@ -83,3 +83,4 @@ namespace Unity.MP_FPS.Client
         }
     }
 }
+*/

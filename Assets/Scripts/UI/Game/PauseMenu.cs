@@ -1,4 +1,4 @@
-using Unity.Properties;
+/*using Unity.Properties;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -67,4 +67,4 @@ namespace Unity.MP_FPS
 
         static void OnQuitPressed() => GameManager.Instance.QuitAsync();
     }
-}
+}*/

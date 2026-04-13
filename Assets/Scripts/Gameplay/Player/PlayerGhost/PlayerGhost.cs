@@ -1,4 +1,4 @@
-using Unity.Cinemachine;
+/*using Unity.Cinemachine;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
@@ -244,4 +244,4 @@ namespace Unity.MP_FPS
             return false;
         }
     }
-}
+}*/

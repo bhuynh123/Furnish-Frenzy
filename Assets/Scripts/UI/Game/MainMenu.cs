@@ -1,4 +1,4 @@
-using Unity.Properties;
+/*using Unity.Properties;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -143,3 +143,4 @@ namespace Unity.MP_FPS.Client
         static void OnQuitPressed() => GameManager.Instance.QuitAsync();
     }
 }
+*/

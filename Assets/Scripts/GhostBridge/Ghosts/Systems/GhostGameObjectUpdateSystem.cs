@@ -1,4 +1,4 @@
-#if UNITY_EDITOR || ENABLE_PROFILING
+/*#if UNITY_EDITOR || ENABLE_PROFILING
 #define USE_GHOST_GROUP_PROFILE_MARKERS
 #endif
 
@@ -379,3 +379,4 @@ public abstract partial class GhostGameObjectUpdateSystemBase<T> : SingletonSyst
 
     protected virtual void UpdateGhostGameObject(GhostGameObject updateObject, float deltaTime) { }
 }
+*/

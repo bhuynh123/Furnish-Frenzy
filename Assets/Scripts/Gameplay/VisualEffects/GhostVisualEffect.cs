@@ -1,4 +1,4 @@
-﻿namespace Unity.MP_FPS
+﻿/*namespace Unity.MP_FPS
 {
     public class GhostVisualEffect : GhostMonoBehaviour, IUpdateServer
     {
@@ -15,4 +15,4 @@
             }
         }
     }
-}
+}*/

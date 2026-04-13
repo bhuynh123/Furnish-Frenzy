@@ -1,4 +1,4 @@
-#if !ENABLE_PROFILING && !NGS_SUBMISSION_BUILD
+/*#if !ENABLE_PROFILING && !NGS_SUBMISSION_BUILD
 #define TRY_CATCH_GHOSTOBJECT_EXCEPTIONS
 #endif
 
@@ -756,4 +756,4 @@ public partial class GhostGameObjectLifetimeSystem : ClientServerSingletonSystem
         }
     }
 #endif
-}
+}*/
