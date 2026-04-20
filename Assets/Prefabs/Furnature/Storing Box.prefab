@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5557507453427588863}
   - component: {fileID: 5236603111318543699}
   - component: {fileID: 4316890107725126090}
-  - component: {fileID: 1611614440513674811}
   - component: {fileID: 7309452238855985151}
   - component: {fileID: 1877964037304368629}
+  - component: {fileID: 7538306186831241223}
   m_Layer: 3
   m_Name: Storing Box
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1349535422926199874}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.69663, y: 0, z: -15.91572}
+  m_LocalPosition: {x: 3, y: 1, z: 3}
   m_LocalScale: {x: 1.8, y: 0.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -120,33 +120,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1611614440513674811
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349535422926199874}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &7309452238855985151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +135,8 @@ MonoBehaviour:
   promptMessage: Pick up?
   itemName: Shopping Cart
   icon: {fileID: 21300000, guid: 09ff1440ab7699e49b651317d2836d93, type: 3}
+  needsTwoHandsToPickUp: 0
+  physicsController: {fileID: 0}
 --- !u!114 &1877964037304368629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,6 +149,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca3a92844939e444fac65c79843669e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HeldItemPhysics
+  moveForce: 250
+  dragAmount: 15
+  isEquipped: 0
+--- !u!54 &7538306186831241223
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349535422926199874}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 0, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1622716046909316352
 GameObject:
   m_ObjectHideFlags: 0

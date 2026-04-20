@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1020896480784925396}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -50,6 +50,7 @@ GameObject:
   - component: {fileID: 3385635891319045670}
   - component: {fileID: 8674771149235303895}
   - component: {fileID: 7691126452859448524}
+  - component: {fileID: 5267057735716098955}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -265,6 +266,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c1a374f4c93e145a6cf1dcb0b401e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerUI
+--- !u!54 &5267057735716098955
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7746253586594873922}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 0, y: 0, z: 0}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 1
 --- !u!1 &7870878783991661574
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,7 +359,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 60
   orthographic: 0
