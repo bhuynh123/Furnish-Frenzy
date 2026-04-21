@@ -113,15 +113,6 @@ namespace Unity.MP_FPS
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""ToggleFlashlight"",
-                    ""type"": ""Button"",
-                    ""id"": ""6c2ab1b8-8984-453a-af3d-a3c78ae1679a"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
                     ""name"": ""Interact"",
                     ""type"": ""Button"",
                     ""id"": ""852140f2-7766-474d-8707-702459ba45f3"",
@@ -179,15 +170,6 @@ namespace Unity.MP_FPS
                     ""name"": ""DropItem"",
                     ""type"": ""Button"",
                     ""id"": ""6062482c-d074-4e89-8b4f-d38277115add"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""ToggleMaxFlash"",
-                    ""type"": ""Button"",
-                    ""id"": ""9d08cb65-8b83-4f91-b5e5-0db2c49362d5"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -416,72 +398,6 @@ namespace Unity.MP_FPS
                 },
                 {
                     ""name"": """",
-                    ""id"": ""143bb1cd-cc10-4eca-a2f0-a3664166fe91"",
-                    ""path"": ""<Gamepad>/buttonWest"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Gamepad"",
-                    ""action"": ""ToggleFlashlight"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""05f6913d-c316-48b2-a6bb-e225f14c7960"",
-                    ""path"": ""<Keyboard>/f"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""ToggleFlashlight"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""886e731e-7071-4ae4-95c0-e61739dad6fd"",
-                    ""path"": ""<Touchscreen>/primaryTouch/tap"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Touch"",
-                    ""action"": ""ToggleFlashlight"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""ee3d0cd2-254e-47a7-a8cb-bc94d9658c54"",
-                    ""path"": ""<Joystick>/trigger"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Joystick"",
-                    ""action"": ""ToggleFlashlight"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""8255d333-5683-4943-a58a-ccb207ff1dce"",
-                    ""path"": ""<XRController>/{PrimaryAction}"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""XR"",
-                    ""action"": ""ToggleFlashlight"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""b3c1c7f0-bd20-4ee7-a0f1-899b24bca6d7"",
-                    ""path"": ""<Keyboard>/enter"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""ToggleFlashlight"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""f2e9ba44-c423-42a7-ad56-f20975884794"",
                     ""path"": ""<Keyboard>/leftShift"",
                     ""interactions"": """",
@@ -620,17 +536,6 @@ namespace Unity.MP_FPS
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
                     ""action"": ""DropItem"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""073f9188-e4f2-425a-a827-2a51736e7875"",
-                    ""path"": ""<Mouse>/rightButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""ToggleMaxFlash"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1286,7 +1191,6 @@ namespace Unity.MP_FPS
             m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
             m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
             m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
-            m_Player_ToggleFlashlight = m_Player.FindAction("ToggleFlashlight", throwIfNotFound: true);
             m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
             m_Player_Crouch = m_Player.FindAction("Crouch", throwIfNotFound: true);
             m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
@@ -1294,7 +1198,6 @@ namespace Unity.MP_FPS
             m_Player_NextItem = m_Player.FindAction("NextItem", throwIfNotFound: true);
             m_Player_PreviousItem = m_Player.FindAction("PreviousItem", throwIfNotFound: true);
             m_Player_DropItem = m_Player.FindAction("DropItem", throwIfNotFound: true);
-            m_Player_ToggleMaxFlash = m_Player.FindAction("ToggleMaxFlash", throwIfNotFound: true);
             m_Player_UseItem = m_Player.FindAction("UseItem", throwIfNotFound: true);
             m_Player_SelectFirstItem = m_Player.FindAction("SelectFirstItem", throwIfNotFound: true);
             m_Player_SelectSecondItem = m_Player.FindAction("SelectSecondItem", throwIfNotFound: true);
@@ -1396,7 +1299,6 @@ namespace Unity.MP_FPS
         private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
         private readonly InputAction m_Player_Move;
         private readonly InputAction m_Player_Look;
-        private readonly InputAction m_Player_ToggleFlashlight;
         private readonly InputAction m_Player_Interact;
         private readonly InputAction m_Player_Crouch;
         private readonly InputAction m_Player_Jump;
@@ -1404,7 +1306,6 @@ namespace Unity.MP_FPS
         private readonly InputAction m_Player_NextItem;
         private readonly InputAction m_Player_PreviousItem;
         private readonly InputAction m_Player_DropItem;
-        private readonly InputAction m_Player_ToggleMaxFlash;
         private readonly InputAction m_Player_UseItem;
         private readonly InputAction m_Player_SelectFirstItem;
         private readonly InputAction m_Player_SelectSecondItem;
@@ -1430,10 +1331,6 @@ namespace Unity.MP_FPS
             /// Provides access to the underlying input action "Player/Look".
             /// </summary>
             public InputAction @Look => m_Wrapper.m_Player_Look;
-            /// <summary>
-            /// Provides access to the underlying input action "Player/ToggleFlashlight".
-            /// </summary>
-            public InputAction @ToggleFlashlight => m_Wrapper.m_Player_ToggleFlashlight;
             /// <summary>
             /// Provides access to the underlying input action "Player/Interact".
             /// </summary>
@@ -1462,10 +1359,6 @@ namespace Unity.MP_FPS
             /// Provides access to the underlying input action "Player/DropItem".
             /// </summary>
             public InputAction @DropItem => m_Wrapper.m_Player_DropItem;
-            /// <summary>
-            /// Provides access to the underlying input action "Player/ToggleMaxFlash".
-            /// </summary>
-            public InputAction @ToggleMaxFlash => m_Wrapper.m_Player_ToggleMaxFlash;
             /// <summary>
             /// Provides access to the underlying input action "Player/UseItem".
             /// </summary>
@@ -1522,9 +1415,6 @@ namespace Unity.MP_FPS
                 @Look.started += instance.OnLook;
                 @Look.performed += instance.OnLook;
                 @Look.canceled += instance.OnLook;
-                @ToggleFlashlight.started += instance.OnToggleFlashlight;
-                @ToggleFlashlight.performed += instance.OnToggleFlashlight;
-                @ToggleFlashlight.canceled += instance.OnToggleFlashlight;
                 @Interact.started += instance.OnInteract;
                 @Interact.performed += instance.OnInteract;
                 @Interact.canceled += instance.OnInteract;
@@ -1546,9 +1436,6 @@ namespace Unity.MP_FPS
                 @DropItem.started += instance.OnDropItem;
                 @DropItem.performed += instance.OnDropItem;
                 @DropItem.canceled += instance.OnDropItem;
-                @ToggleMaxFlash.started += instance.OnToggleMaxFlash;
-                @ToggleMaxFlash.performed += instance.OnToggleMaxFlash;
-                @ToggleMaxFlash.canceled += instance.OnToggleMaxFlash;
                 @UseItem.started += instance.OnUseItem;
                 @UseItem.performed += instance.OnUseItem;
                 @UseItem.canceled += instance.OnUseItem;
@@ -1584,9 +1471,6 @@ namespace Unity.MP_FPS
                 @Look.started -= instance.OnLook;
                 @Look.performed -= instance.OnLook;
                 @Look.canceled -= instance.OnLook;
-                @ToggleFlashlight.started -= instance.OnToggleFlashlight;
-                @ToggleFlashlight.performed -= instance.OnToggleFlashlight;
-                @ToggleFlashlight.canceled -= instance.OnToggleFlashlight;
                 @Interact.started -= instance.OnInteract;
                 @Interact.performed -= instance.OnInteract;
                 @Interact.canceled -= instance.OnInteract;
@@ -1608,9 +1492,6 @@ namespace Unity.MP_FPS
                 @DropItem.started -= instance.OnDropItem;
                 @DropItem.performed -= instance.OnDropItem;
                 @DropItem.canceled -= instance.OnDropItem;
-                @ToggleMaxFlash.started -= instance.OnToggleMaxFlash;
-                @ToggleMaxFlash.performed -= instance.OnToggleMaxFlash;
-                @ToggleMaxFlash.canceled -= instance.OnToggleMaxFlash;
                 @UseItem.started -= instance.OnUseItem;
                 @UseItem.performed -= instance.OnUseItem;
                 @UseItem.canceled -= instance.OnUseItem;
@@ -1944,13 +1825,6 @@ namespace Unity.MP_FPS
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
             void OnLook(InputAction.CallbackContext context);
             /// <summary>
-            /// Method invoked when associated input action "ToggleFlashlight" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnToggleFlashlight(InputAction.CallbackContext context);
-            /// <summary>
             /// Method invoked when associated input action "Interact" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
             /// </summary>
             /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
@@ -1999,13 +1873,6 @@ namespace Unity.MP_FPS
             /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
             void OnDropItem(InputAction.CallbackContext context);
-            /// <summary>
-            /// Method invoked when associated input action "ToggleMaxFlash" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-            /// </summary>
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-            void OnToggleMaxFlash(InputAction.CallbackContext context);
             /// <summary>
             /// Method invoked when associated input action "UseItem" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
             /// </summary>
